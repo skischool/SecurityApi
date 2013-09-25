@@ -1,0 +1,10 @@
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\Domain.MainModule.Entities.dll.config
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\Domain.MainModule.Entities.dll
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\Domain.MainModule.Entities.pdb
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\EntityFramework.dll
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\EntityFramework.SqlServer.dll
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\EntityFramework.xml
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\bin\Release\EntityFramework.SqlServer.xml
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\obj\Release\Domain.MainModule.Entities.csprojResolveAssemblyReference.cache
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\obj\Release\Domain.MainModule.Entities.dll
+C:\Git\Shared\Security\SecurityAPI\Domain.MainModule.Entities\obj\Release\Domain.MainModule.Entities.pdb
