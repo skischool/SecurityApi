@@ -59,6 +59,8 @@
     <Compile Include="Data\DataContext.cs" />
     <Compile Include="Data\GenericRepository.cs" />
     <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\IUsersRepository.cs" />
+    <Compile Include="Data\UserContext.cs" />
     <Compile Include="Data\UsersRepository.cs" />
     <Compile Include="Security\AuthenticationService.cs" />
     <Compile Include="Security\IAuthenticationRepository.cs" />

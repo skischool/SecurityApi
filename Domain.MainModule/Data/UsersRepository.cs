@@ -7,13 +7,22 @@ using Domain.MainModule.Entities;
 
 namespace Domain.MainModule.Data
 {
-    public class UsersRepository 
+    public class UsersRepository : Domain.MainModule.Data.IUsersRepository 
     {
-        private DataContext _context;
+        private UserContext _context;
 
         public UsersRepository()
         {
-            _context = new DataContext();
+            _context = new UserContext();
+        }
+
+        public User GetUserBy(string username)
+        {
+            var users = _context.Users;
+            
+            var user = users.FirstOrDefault(u => u.Username == username);
+
+            return user;
         }
 
        

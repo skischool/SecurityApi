@@ -268,7 +268,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -318,6 +320,10 @@
     <ProjectReference Include="..\Domain.MainModule.Entities\Domain.MainModule.Entities.csproj">
       <Project>{ece56a8f-fde3-4a28-90a3-a774457a4807}</Project>
       <Name>Domain.MainModule.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.MainModule\Domain.MainModule.csproj">
+      <Project>{f4315098-32ad-4b7f-8869-ce58e58b58b3}</Project>
+      <Name>Domain.MainModule</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

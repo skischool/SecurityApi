@@ -10,7 +10,7 @@ namespace DistributedServices.Web.App_Start
     {
         public static void Register()
         {
-            var connectionString = "DefaultConnection";
+            var connectionString = "ApplicationServices";
 
             var usersTable = "Users";
 

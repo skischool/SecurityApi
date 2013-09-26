@@ -4,6 +4,7 @@ using Domain.MainModule.Security;
 using Microsoft.Practices.Unity;
 using System.Configuration;
 using Infrastructure.Data.MainModule.Repositories;
+using Domain.MainModule.Data;
 
 namespace Infrastructure.CrossCutting.IoC
 {
@@ -78,6 +79,7 @@ namespace Infrastructure.CrossCutting.IoC
             //Register Repositories mappings
             container.RegisterType<IAuthenticationRepository, AuthenticationRepository>(new TransientLifetimeManager());
 
+            container.RegisterType<IUsersRepository, UsersRepository>(new TransientLifetimeManager());
 
             //Register Services mappings
             container.RegisterType<IAuthenticationService, AuthenticationService>(new TransientLifetimeManager());

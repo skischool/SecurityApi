@@ -87,3 +87,5 @@ C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\obj\Debug\Distributed
 C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\bin\Domain.MainModule.Entities.dll
 C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\bin\Domain.MainModule.Entities.pdb
 C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\obj\Debug\DistributedServices.Web.csprojResolveAssemblyReference.cache
+C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\bin\Domain.MainModule.dll
+C:\Git\Shared\Security\SecurityAPI\DistributedServices.Web\bin\Domain.MainModule.pdb
